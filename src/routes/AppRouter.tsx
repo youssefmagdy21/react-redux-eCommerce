@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 				element: <Categories />,
 			},
 			{
-				path: "products/:prefix",
+				path: "categories/products/:prefix",
 				element: <Products />,
 				// para type guard
 				loader: ({ params }) => {
